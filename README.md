@@ -1,6 +1,25 @@
 <img src="https://sujeitoprogramador.com/wp-content/uploads/2019/08/jsjsjs.png" width="700px">
 JavaScript - Tips and tricks
 
+### Array Find
+```js
+const array1 = [5, 12, 8, 130, 44];
+
+const found = array1.find(element => element > 10);
+
+console.log(found);
+// expected output: 12
+```
+
+### Push Array
+```js
+const animals = ['pigs', 'goats', 'sheep'];
+
+const count = animals.push('cows');
+```
+Other examples to splice, pop
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
 ### Remove Property from an Object
 ```
 var person = {

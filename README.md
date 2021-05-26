@@ -1,6 +1,27 @@
 <img src="https://sujeitoprogramador.com/wp-content/uploads/2019/08/jsjsjs.png" width="700px">
 JavaScript - Tips and tricks
 
+
+### module.exports vs export default
+```
+module.exports = 1
+module.exports = NaN
+module.exports = 'foo'
+module.exports = { foo: 'bar' }
+module.exports = [ 'foo', 'bar' ]
+module.exports = function foo () {}
+module.exports = () => {}
+```
+Export padrão
+```
+export default = 1
+export default = NaN
+export default = 'foo'
+export default = { foo: 'bar' }
+export default = [ 'foo', 'bar' ]
+export default = function foo () {}
+export default = () => {}
+```
  
 ### count the number of keys/properties of an object in JavaScript###
  ``` 

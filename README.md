@@ -1,6 +1,16 @@
 <img src="https://sujeitoprogramador.com/wp-content/uploads/2019/08/jsjsjs.png" width="700px">
 JavaScript - Tips and tricks
 
+### How to reverse String.fromCharCode?
+```js
+const binaryArray = str
+  .split('')
+  .reduce((acc, next) =>
+    [...acc, next.charCodeAt(0)],
+    []
+  )
+```
+
 
 ### module.exports vs export default
 ```

@@ -2,8 +2,9 @@
 JavaScript - Tips and tricks
 
 ### How to reverse String.fromCharCode?
+
 ```js
-const binaryArray = str
+const binaryArray = 'FRMR' //string
   .split('')
   .reduce((acc, next) =>
     [...acc, next.charCodeAt(0)],
@@ -11,6 +12,11 @@ const binaryArray = str
   )
 ```
 
+JavaScript: String fromCharCode() method
+```js
+const binaryArray = [70, 82, 77, 82] // ...
+str = String.fromCharCode(...binaryArray)
+```
 
 ### module.exports vs export default
 ```
